@@ -22,4 +22,4 @@ class PathSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Path
-        fields = "_all_"
+        fields = "__all__"
